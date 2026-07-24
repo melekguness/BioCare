@@ -1,0 +1,24 @@
+BioCare — NASIL AÇILIR (Windows)
+
+YÖNTEM 1 (en kolay)
+1. Bu klasörü Masaüstüne koy
+2. index.html dosyasına ÇİFT TIKLA
+3. Chrome/Edge açılır → site gelir
+
+YÖNTEM 2 (baslat.bat)
+1. baslat.bat dosyasına ÇİFT TIKLA
+2. Siyah pencere açılır, tarayıcı kendiliğinden açılır
+3. Adres şu olmalı: http://127.0.0.1:5500/
+   (BioCare-... klasör adını URL'ye YAZMA)
+
+YÖNTEM 3 (VS Code Live Server)
+1. VS Code ile bu klasörü aç (File → Open Folder)
+2. index.html'e sağ tık → Open with Live Server
+3. Açılan adreste /index.html görünsün yeter
+
+SIK HATA
+Yanlış: http://127.0.0.1:5500/BioCare-cursor-.../index.html  → 404
+Doğru:  http://127.0.0.1:5500/
+veya:   index.html'e çift tık
+
+Python yoksa: Yöntem 1 yeterli (çift tık).

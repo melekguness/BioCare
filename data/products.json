@@ -1,0 +1,1525 @@
+{
+  "store": {
+    "name": "BioCare",
+    "tagline": "Klinik kalitesinde medikal ürünler",
+    "phone": "+90 212 555 0147",
+    "email": "destek@biocare.com.tr",
+    "address": "İTÜ Teknopark, Maslak, İstanbul"
+  },
+  "categories": [
+    {
+      "id": "koruyucu",
+      "name": "Koruyucu Ekipman",
+      "icon": "shield"
+    },
+    {
+      "id": "tani",
+      "name": "Tanı & Ölçüm",
+      "icon": "activity"
+    },
+    {
+      "id": "ilk-yardim",
+      "name": "İlk Yardım",
+      "icon": "plus-circle"
+    },
+    {
+      "id": "ortopedi",
+      "name": "Ortopedi",
+      "icon": "bone"
+    },
+    {
+      "id": "laboratuvar",
+      "name": "Laboratuvar",
+      "icon": "flask"
+    },
+    {
+      "id": "evde-bakim",
+      "name": "Evde Bakım",
+      "icon": "home"
+    },
+    {
+      "id": "hijyen",
+      "name": "Hijyen & Sterilizasyon",
+      "icon": "droplet"
+    },
+    {
+      "id": "rehabilitasyon",
+      "name": "Rehabilitasyon",
+      "icon": "heart"
+    }
+  ],
+  "products": [
+    {
+      "id": "bc-001",
+      "name": "Klinik Stetoskop Pro",
+      "category": "tani",
+      "price": 1890,
+      "oldPrice": 2290,
+      "rating": 4.8,
+      "stock": 42,
+      "badge": "Çok Satan",
+      "image": "https://images.unsplash.com/photo-1584982757633-7139d89d1b8e?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584982757633-7139d89d1b8e?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1603398938378-e54eab446dde?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Çift başlıklı, yüksek akustik hassasiyetli profesyonel stetoskop.",
+      "desc": "Paslanmaz çelik gövde ve yumuşak silikon kulak uçlarıyla uzun süreli klinik kullanıma uygundur. Pediatrik ve erişkin diyaframları tek gövdede birleşir.",
+      "specs": [
+        "Çift diyafram",
+        "58 cm hortum",
+        "Lateks içermez",
+        "2 yıl garanti"
+      ]
+    },
+    {
+      "id": "bc-002",
+      "name": "Dijital Tansiyon Aleti Kol Tipi",
+      "category": "tani",
+      "price": 1240,
+      "oldPrice": null,
+      "rating": 4.6,
+      "stock": 67,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Aritmi uyarılı, hafızalı otomatik kol tipi tansiyon ölçer.",
+      "desc": "WHO sınıflandırmasına uygun renk göstergesi, 2x90 ölçüm hafızası ve büyük LCD ekran. Ev ve klinik kullanım için CE belgeli.",
+      "specs": [
+        "Kol çevresi 22–42 cm",
+        "Arrhythmia uyarısı",
+        "Pil + adaptör",
+        "CE sertifikalı"
+      ]
+    },
+    {
+      "id": "bc-003",
+      "name": "Infrared Alın Termometresi",
+      "category": "tani",
+      "price": 689,
+      "oldPrice": 849,
+      "rating": 4.5,
+      "stock": 120,
+      "badge": "İndirim",
+      "image": "https://images.unsplash.com/photo-1615486511484-92e060a2d374?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1615486511484-92e060a2d374?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Temassız, 1 saniyede ölçüm yapan infrared termometre.",
+      "desc": "Klinik ve ev kullanımı için temassız ölçüm. Ateş uyarısı, sessiz gece modu ve 32 ölçüm hafızası bulunur.",
+      "specs": [
+        "±0.2 °C hassasiyet",
+        "LCD arka ışık",
+        "Sessiz mod",
+        "Otomatik kapanma"
+      ]
+    },
+    {
+      "id": "bc-004",
+      "name": "Parmak Tipi Pulse Oksimetre",
+      "category": "tani",
+      "price": 420,
+      "oldPrice": null,
+      "rating": 4.7,
+      "stock": 95,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "SpO2 ve nabız ölçümü için taşınabilir oksimetre.",
+      "desc": "OLED ekranlı, düşük perfüzyon hassasiyetli parmak tipi cihaz. Spor ve solunum takibi için uygundur.",
+      "specs": [
+        "SpO2 + nabız",
+        "OLED ekran",
+        "Pil ömrü ~30 saat",
+        "Taşıma kılıfı"
+      ]
+    },
+    {
+      "id": "bc-005",
+      "name": "N95 FFP2 Maske (20'li)",
+      "category": "koruyucu",
+      "price": 189,
+      "oldPrice": 240,
+      "rating": 4.9,
+      "stock": 340,
+      "badge": "Stokta Bol",
+      "image": "https://images.unsplash.com/photo-1584634731339-252c90846c5d?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584634731339-252c90846c5d?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "CE ve EN149 uyumlu FFP2 solunum koruyucu maske.",
+      "desc": "5 katlı filtrasyon, burun klipsi ve yumuşak iç yüzey. Klinik personel ve laboratuvar kullanımı için uygundur.",
+      "specs": [
+        "FFP2 / N95",
+        "20 adet/kutu",
+        "Lateks içermez",
+        "Tek kullanımlık"
+      ]
+    },
+    {
+      "id": "bc-006",
+      "name": "Nitril Muayene Eldiveni (100'lü)",
+      "category": "koruyucu",
+      "price": 265,
+      "oldPrice": null,
+      "rating": 4.8,
+      "stock": 280,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1581093588401-fbb62a02f48a?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Pudrasız, mavi nitril muayene eldiveni.",
+      "desc": "Yüksek çekme dayanımı, dokunmatik ekran uyumlu ince yapı. S, M, L, XL beden seçenekleri.",
+      "specs": [
+        "Pudrasız nitril",
+        "100 adet",
+        "AQL 1.5",
+        "Ambidextrous"
+      ]
+    },
+    {
+      "id": "bc-007",
+      "name": "Yüz Koruyucu Siperlik",
+      "category": "koruyucu",
+      "price": 95,
+      "oldPrice": 120,
+      "rating": 4.4,
+      "stock": 150,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Anti-buğu PET siperlik, ayarlanabilir bant.",
+      "desc": "Tam yüz koruması sağlayan şeffaf siperlik. Maske ile birlikte kullanılabilir, tekrar kullanılabilir çerçeve.",
+      "specs": [
+        "Anti-buğu film",
+        "Ayarlanabilir",
+        "Yeniden kullanılabilir",
+        "Hafif çerçeve"
+      ]
+    },
+    {
+      "id": "bc-008",
+      "name": "Steril Cerrahi Önlük",
+      "category": "koruyucu",
+      "price": 78,
+      "oldPrice": null,
+      "rating": 4.3,
+      "stock": 200,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1603398938378-e54eab446dde?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1603398938378-e54eab446dde?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "SMS kumaş, sıvı bariyerli steril önlük.",
+      "desc": "Ameliyathane ve girişimsel işlemler için steril paketli cerrahi önlük. Örme manşet ve bağcıklı bel.",
+      "specs": [
+        "Steril paket",
+        "SMS kumaş",
+        "Tek beden",
+        "CE Class I"
+      ]
+    },
+    {
+      "id": "bc-009",
+      "name": "İlk Yardım Çantası Premium",
+      "category": "ilk-yardim",
+      "price": 890,
+      "oldPrice": 1090,
+      "rating": 4.9,
+      "stock": 54,
+      "badge": "Öne Çıkan",
+      "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "İşyeri ve araç için 120 parçalık ilk yardım seti.",
+      "desc": "TS 12071 uyumlu içerik: bandaj, yara bandı, makas, eldiven, üçgen sargı ve acil battaniye. Su geçirmez çanta.",
+      "specs": [
+        "120 parça",
+        "TS uyumlu",
+        "Su geçirmez",
+        "Duvar askısı"
+      ]
+    },
+    {
+      "id": "bc-010",
+      "name": "Steril Gazlı Bez 10x10 (100'lü)",
+      "category": "ilk-yardim",
+      "price": 145,
+      "oldPrice": null,
+      "rating": 4.6,
+      "stock": 310,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Yüksek emici, 8 kat steril gazlı bez.",
+      "desc": "Yara bakımı ve pansuman için steril gaz kompres. Pamuk esaslı, tüy bırakmayan yapı.",
+      "specs": [
+        "10x10 cm",
+        "8 kat",
+        "100 adet",
+        "EO steril"
+      ]
+    },
+    {
+      "id": "bc-011",
+      "name": "Elastik Bandaj 10 cm",
+      "category": "ilk-yardim",
+      "price": 48,
+      "oldPrice": null,
+      "rating": 4.5,
+      "stock": 400,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Kendinden yapışkanlı elastik destek bandajı.",
+      "desc": "Spor yaralanmaları ve eklem desteği için yüksek esneklik. Klipsli kapatma sistemi.",
+      "specs": [
+        "10 cm x 4.5 m",
+        "Yıkanabilir",
+        "Lateks içermez seçenek",
+        "Klips dahil"
+      ]
+    },
+    {
+      "id": "bc-012",
+      "name": "Yanık Jeli 125 ml",
+      "category": "ilk-yardim",
+      "price": 175,
+      "oldPrice": 210,
+      "rating": 4.7,
+      "stock": 88,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1584744982491-665216d95f8b?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Hidrojel bazlı soğutucu yanık bakımı.",
+      "desc": "1. ve 2. derece yanıklarda ağrıyı azaltmaya yardımcı hidrojel. Steril aplikatör uçlu şişe.",
+      "specs": [
+        "125 ml",
+        "Hidrojel",
+        "Steril uç",
+        "Seyahat boyu"
+      ]
+    },
+    {
+      "id": "bc-013",
+      "name": "Diz Desteği Neopren",
+      "category": "ortopedi",
+      "price": 390,
+      "oldPrice": null,
+      "rating": 4.4,
+      "stock": 76,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1581093588401-fbb62a02f48a?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1581093588401-fbb62a02f48a?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1583947215259-38e31be8741a?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Açık patella, ayarlanabilir dizlik.",
+      "desc": "Spor ve günlük kullanım için neopren diz desteği. Isı tutucu yapı ve velcro kayışlar.",
+      "specs": [
+        "S–XXL",
+        "Açık patella",
+        "Neopren",
+        "Çift kayış"
+      ]
+    },
+    {
+      "id": "bc-014",
+      "name": "Bel Korsesi Lumbal",
+      "category": "ortopedi",
+      "price": 720,
+      "oldPrice": 890,
+      "rating": 4.6,
+      "stock": 45,
+      "badge": "İndirim",
+      "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1598289431512-b97b0917affc?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Çelik balenli lumbal bel destek korsesi.",
+      "desc": "Bel ağrısı ve postür desteği için ayarlanabilir korse. Nefes alan mesh yan paneller.",
+      "specs": [
+        "Çelik balen",
+        "Mesh kumaş",
+        "S–XL",
+        "Çıkarılabilir ped"
+      ]
+    },
+    {
+      "id": "bc-015",
+      "name": "Ayak Bileği Stabilizatörü",
+      "category": "ortopedi",
+      "price": 310,
+      "oldPrice": null,
+      "rating": 4.5,
+      "stock": 62,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Bağ yaralanmaları için sert destekli bileklik.",
+      "desc": "Figür-8 kayış sistemi ile lateral stabilite sağlar. Ayakkabı içinde rahat kullanım.",
+      "specs": [
+        "Figür-8 kayış",
+        "Sağ/sol universal",
+        "Hafif gövde",
+        "Yıkanabilir"
+      ]
+    },
+    {
+      "id": "bc-016",
+      "name": "Boyunluk Yumuşak Servikal",
+      "category": "ortopedi",
+      "price": 245,
+      "oldPrice": null,
+      "rating": 4.3,
+      "stock": 90,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Yumuşak köpük servikal boyunluk.",
+      "desc": "Hafif boyun ağrılarında destek amaçlı. Yıkanabilir kılıf ve cırtlı kapatma.",
+      "specs": [
+        "3 yükseklik",
+        "Yıkanabilir kılıf",
+        "Hafif köpük",
+        "Tek beden ayarlı"
+      ]
+    },
+    {
+      "id": "bc-017",
+      "name": "Mikroskop Lam & Lamel Seti",
+      "category": "laboratuvar",
+      "price": 185,
+      "oldPrice": null,
+      "rating": 4.7,
+      "stock": 130,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Önceden temizlenmiş 50 lam + 100 lamel.",
+      "desc": "Eğitim ve klinik laboratuvarlar için cam lam-lamel seti. Köşe kesimli, toz geçirmez kutu.",
+      "specs": [
+        "76x26 mm lam",
+        "Köşe kesim",
+        "50+100 adet",
+        "Toz geçirmez kutu"
+      ]
+    },
+    {
+      "id": "bc-018",
+      "name": "Santrifüj Tüpü 15 ml (50'li)",
+      "category": "laboratuvar",
+      "price": 220,
+      "oldPrice": 260,
+      "rating": 4.8,
+      "stock": 175,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Konik dipli, vidalı kapaklı santrifüj tüpü.",
+      "desc": "PP malzemeden, 15 ml hacimli. Graduasyonlu gövde ve sızdırmaz kapak.",
+      "specs": [
+        "15 ml",
+        "Vidalı kapak",
+        "50 adet",
+        "Otoklavlanabilir"
+      ]
+    },
+    {
+      "id": "bc-019",
+      "name": "Pipet Seti 4'lü (10–1000 µl)",
+      "category": "laboratuvar",
+      "price": 2450,
+      "oldPrice": 2890,
+      "rating": 4.9,
+      "stock": 28,
+      "badge": "Profesyonel",
+      "image": "https://images.unsplash.com/photo-1584744982491-665216d95f8b?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584744982491-665216d95f8b?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Kalibre edilebilir tek kanallı mikropipet seti.",
+      "desc": "4 hacim aralığı, ergonomik tutamak ve renk kodlu pistonlar. Kalibrasyon sertifikası dahil.",
+      "specs": [
+        "10–1000 µl",
+        "4 pipet",
+        "Kalibrasyon belgesi",
+        "Stand dahil"
+      ]
+    },
+    {
+      "id": "bc-020",
+      "name": "Petri Kabı Steril (20'li)",
+      "category": "laboratuvar",
+      "price": 165,
+      "oldPrice": null,
+      "rating": 4.5,
+      "stock": 210,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1583947215259-38e31be8741a?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1583947215259-38e31be8741a?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1631549916768-4119b4123a21?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "90 mm steril plastik petri kabı.",
+      "desc": "Mikrobiyoloji kültürleri için EO steril petri. Havalandırma çıkıntılı kapak.",
+      "specs": [
+        "90 mm",
+        "EO steril",
+        "20 adet",
+        "PS malzeme"
+      ]
+    },
+    {
+      "id": "bc-021",
+      "name": "Nebulizatör Kompresörlü",
+      "category": "evde-bakim",
+      "price": 1180,
+      "oldPrice": 1390,
+      "rating": 4.7,
+      "stock": 38,
+      "badge": "Çok Satan",
+      "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1598289431512-b97b0917affc?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Yetişkin ve çocuk maskeli kompresörlü nebulizatör.",
+      "desc": "Astım ve solunum tedavisi için sessiz kompresör. Parçacık boyutu 0.5–5 µm aralığında.",
+      "specs": [
+        "Yetişkin + çocuk maske",
+        "Sessiz motor",
+        "Yedek filtre",
+        "Taşıma çantası"
+      ]
+    },
+    {
+      "id": "bc-022",
+      "name": "Buhar Makinesi Ultrasonic",
+      "category": "evde-bakim",
+      "price": 980,
+      "oldPrice": null,
+      "rating": 4.4,
+      "stock": 51,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "4L kapasiteli ultrasonik oda nemlendirici.",
+      "desc": "Soğuk buhar teknolojisi, gece lambası ve otomatik nem kontrolü. Evde bakım süreçlerini destekler.",
+      "specs": [
+        "4 litre",
+        "Nem sensörü",
+        "Sessiz mod",
+        "Otomatik kapanma"
+      ]
+    },
+    {
+      "id": "bc-023",
+      "name": "Hasta Yatağı Altı Bez (30'lu)",
+      "category": "evde-bakim",
+      "price": 340,
+      "oldPrice": 390,
+      "rating": 4.6,
+      "stock": 140,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1666213522461-e1f29f5452bb?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Yüksek emici, kanatlı hasta altı bezi.",
+      "desc": "Evde bakım ve klinik kullanım için tek kullanımlık alt bez. Islaklık göstergeli.",
+      "specs": [
+        "60x90 cm",
+        "30 adet",
+        "Islaklık göstergesi",
+        "Kanatlı"
+      ]
+    },
+    {
+      "id": "bc-024",
+      "name": "Dijital Glukometre Seti",
+      "category": "evde-bakim",
+      "price": 560,
+      "oldPrice": null,
+      "rating": 4.8,
+      "stock": 72,
+      "badge": "Öne Çıkan",
+      "image": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "50 strip ve lansetli kan şekeri ölçüm seti.",
+      "desc": "Hızlı 5 sn ölçüm, büyük ekran ve uygulama bağlantılı Bluetooth modeli.",
+      "specs": [
+        "50 strip",
+        "Bluetooth",
+        "5 sn ölçüm",
+        "Lanset kalemi"
+      ]
+    },
+    {
+      "id": "bc-025",
+      "name": "Antiseptik El Dezenfektanı 500 ml",
+      "category": "hijyen",
+      "price": 95,
+      "oldPrice": null,
+      "rating": 4.7,
+      "stock": 500,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1581595220892-5d66948586d6?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "%70 alkol bazlı hızlı etkili el dezenfektanı.",
+      "desc": "WHO formülasyonuna yakın alkol bazlı jel. Pompalı şişe, cilt yumuşatıcı gliserin içerir.",
+      "specs": [
+        "500 ml",
+        "%70 alkol",
+        "Pompa kapak",
+        "Gliserinli"
+      ]
+    },
+    {
+      "id": "bc-026",
+      "name": "Yüzey Dezenfektan Sprey 1L",
+      "category": "hijyen",
+      "price": 175,
+      "oldPrice": 210,
+      "rating": 4.5,
+      "stock": 220,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1584982757633-7139d89d1b8e?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Geniş spektrumlu yüzey dezenfektanı.",
+      "desc": "Klinik yüzeyler, ekipman kasaları ve muayene masaları için. Alkol bazlı, hızlı kuruyan formül.",
+      "specs": [
+        "1 litre",
+        "Sprey başlık",
+        "Hızlı kuruma",
+        "Geniş spektrum"
+      ]
+    },
+    {
+      "id": "bc-027",
+      "name": "Otoklav Sterilizasyon Rulosu",
+      "category": "hijyen",
+      "price": 420,
+      "oldPrice": null,
+      "rating": 4.6,
+      "stock": 64,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1631549916768-4119b4123a21?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1631549916768-4119b4123a21?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Buhar sterilizasyonu için göstergeli rulo.",
+      "desc": "Otoklav poşeti rulosu, proses göstergeli. 200 mm x 200 m standart ölçü.",
+      "specs": [
+        "200 mm x 200 m",
+        "Proses göstergesi",
+        "Buhar uyumlu",
+        "Kolay kesim"
+      ]
+    },
+    {
+      "id": "bc-028",
+      "name": "Ultrasonik Temizleyici 3L",
+      "category": "hijyen",
+      "price": 2890,
+      "oldPrice": 3290,
+      "rating": 4.8,
+      "stock": 18,
+      "badge": "Profesyonel",
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1615486511484-92e060a2d374?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Cerrahi aletler için ultrasonik temizleme ünitesi.",
+      "desc": "Dijital zamanlayıcı, ısıtmalı tank ve sepetli 3 litre kapasite. Klinik enstrüman bakımı için.",
+      "specs": [
+        "3 L tank",
+        "Isıtma",
+        "Dijital timer",
+        "Paslanmaz sepet"
+      ]
+    },
+    {
+      "id": "bc-029",
+      "name": "Direnç Bandı Seti (5 Seviye)",
+      "category": "rehabilitasyon",
+      "price": 320,
+      "oldPrice": 390,
+      "rating": 4.7,
+      "stock": 110,
+      "badge": "Çok Satan",
+      "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Fizik tedavi için 5 dirençli lateks bant seti.",
+      "desc": "Renk kodlu 5 seviye, kapı ankrajı ve egzersiz kartı dahil. Ev rehabilitasyonu için ideal.",
+      "specs": [
+        "5 direnç",
+        "Kapı ankrajı",
+        "Egzersiz kartı",
+        "Taşıma çantası"
+      ]
+    },
+    {
+      "id": "bc-030",
+      "name": "Pilates Topu 65 cm",
+      "category": "rehabilitasyon",
+      "price": 275,
+      "oldPrice": null,
+      "rating": 4.5,
+      "stock": 85,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1666213522461-e1f29f5452bb?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1666213522461-e1f29f5452bb?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1584634731339-252c90846c5d?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Anti-burst pilates ve denge topu.",
+      "desc": "Core güçlendirme ve postür egzersizleri için. Pompa dahil, 65 cm çap.",
+      "specs": [
+        "65 cm",
+        "Anti-burst",
+        "Pompa dahil",
+        "300 kg yük"
+      ]
+    },
+    {
+      "id": "bc-031",
+      "name": "TENS Cihazı 4 Kanallı",
+      "category": "rehabilitasyon",
+      "price": 1650,
+      "oldPrice": 1890,
+      "rating": 4.6,
+      "stock": 33,
+      "badge": "Öne Çıkan",
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Ağrı yönetimi için 4 kanallı TENS ünitesi.",
+      "desc": "12 ön ayar program, ayarlanabilir nabız genişliği. 8 elektrot pedi ve taşıma çantası dahil.",
+      "specs": [
+        "4 kanal",
+        "12 program",
+        "8 elektrot",
+        "Şarjlı pil"
+      ]
+    },
+    {
+      "id": "bc-032",
+      "name": "Yürüteç Katlanabilir",
+      "category": "rehabilitasyon",
+      "price": 1480,
+      "oldPrice": null,
+      "rating": 4.4,
+      "stock": 27,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1581595220892-5d66948586d6?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1581595220892-5d66948586d6?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Ayarlanabilir yükseklik, katlanabilir alüminyum yürüteç.",
+      "desc": "Mobilite desteği için hafif alüminyum çerçeve. Kaymaz ayak lastikleri ve tek hareketle katlama.",
+      "specs": [
+        "Alüminyum",
+        "Katlanabilir",
+        "Ayarlı yükseklik",
+        "136 kg kapasite"
+      ]
+    },
+    {
+      "id": "bc-033",
+      "name": "Cerrahi Makas Mayo",
+      "category": "laboratuvar",
+      "price": 210,
+      "oldPrice": null,
+      "rating": 4.8,
+      "stock": 96,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1584982757633-7139d89d1b8e?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584982757633-7139d89d1b8e?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1603398938378-e54eab446dde?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Paslanmaz çelik Mayo tipi cerrahi makas.",
+      "desc": "14 cm eğri uçlu Mayo makas. Otoklavlanabilir, mat yüzeyli tutamak.",
+      "specs": [
+        "14 cm",
+        "Eğri uç",
+        "AISI 420",
+        "Otoklavlanabilir"
+      ]
+    },
+    {
+      "id": "bc-034",
+      "name": "Anatomik Penset Seti",
+      "category": "laboratuvar",
+      "price": 380,
+      "oldPrice": 450,
+      "rating": 4.7,
+      "stock": 58,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Düz ve dişli 3'lü anatomik penset seti.",
+      "desc": "Laboratuvar ve klinik prosedürler için paslanmaz penset seti. Sterilizasyon kaseti ile gelir.",
+      "specs": [
+        "3'lü set",
+        "Paslanmaz",
+        "Kaset dahil",
+        "Mat yüzey"
+      ]
+    },
+    {
+      "id": "bc-035",
+      "name": "Kan Basıncı Manşonu Yedek",
+      "category": "tani",
+      "price": 195,
+      "oldPrice": null,
+      "rating": 4.3,
+      "stock": 80,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1615486511484-92e060a2d374?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1615486511484-92e060a2d374?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Yetişkin standart yedek tansiyon manşonu.",
+      "desc": "Çoğu dijital ve aneroid cihazla uyumlu çift hortumlu manşon. Yıkanabilir kılıf.",
+      "specs": [
+        "22–32 cm",
+        "Çift hortum",
+        "Velcro",
+        "Yıkanabilir"
+      ]
+    },
+    {
+      "id": "bc-036",
+      "name": "Tek Kullanımlık Önlük (10'lu)",
+      "category": "koruyucu",
+      "price": 140,
+      "oldPrice": null,
+      "rating": 4.2,
+      "stock": 260,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "PP nonwoven ziyaretçi/muayene önlüğü.",
+      "desc": "Klinik ziyaretleri ve kısa işlemler için hafif önlük. Arkadan bağcıklı, nefes alan kumaş.",
+      "specs": [
+        "10 adet",
+        "PP nonwoven",
+        "Tek beden",
+        "Bağcıklı"
+      ]
+    },
+    {
+      "id": "bc-037",
+      "name": "Soğuk-Sıcak Jel Kompres",
+      "category": "ilk-yardim",
+      "price": 85,
+      "oldPrice": 110,
+      "rating": 4.6,
+      "stock": 190,
+      "badge": "İndirim",
+      "image": "https://images.unsplash.com/photo-1584634731339-252c90846c5d?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584634731339-252c90846c5d?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Yeniden kullanılabilir sıcak/soğuk jel paket.",
+      "desc": "Kas ağrıları ve şişlikler için mikrodalga ve dondurucu uyumlu jel kompres. Kılıflı.",
+      "specs": [
+        "Yeniden kullanılabilir",
+        "Kılıf dahil",
+        "Esnek jel",
+        "15x20 cm"
+      ]
+    },
+    {
+      "id": "bc-038",
+      "name": "Parmak Splinti Alüminyum",
+      "category": "ortopedi",
+      "price": 65,
+      "oldPrice": null,
+      "rating": 4.4,
+      "stock": 145,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1581093588401-fbb62a02f48a?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Köpük kaplı alüminyum parmak splinti.",
+      "desc": "Parmak burkulma ve kırık sonrası immobilizasyon için. Makasla kısaltılabilir.",
+      "specs": [
+        "Köpük kaplı",
+        "Şekil verilebilir",
+        "3 boyut",
+        "Radyolüsent"
+      ]
+    },
+    {
+      "id": "bc-039",
+      "name": "Oksijen Konsantratörü 5L",
+      "category": "evde-bakim",
+      "price": 18900,
+      "oldPrice": 21500,
+      "rating": 4.9,
+      "stock": 8,
+      "badge": "Profesyonel",
+      "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Ev tipi 5 L/dk oksijen konsantratörü.",
+      "desc": "Sürekli akış, düşük gürültü ve tekerlekli gövde. Nebulizatör çıkışı ve alarm sistemi mevcuttur.",
+      "specs": [
+        "1–5 L/dk",
+        "Alarmlı",
+        "Tekerlekli",
+        "2 yıl servis"
+      ]
+    },
+    {
+      "id": "bc-040",
+      "name": "CPAP Maskesi Nazal",
+      "category": "evde-bakim",
+      "price": 1280,
+      "oldPrice": null,
+      "rating": 4.5,
+      "stock": 41,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1603398938378-e54eab446dde?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1603398938378-e54eab446dde?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Sessiz egzozlu nazal CPAP maskesi.",
+      "desc": "Uyku apnesi tedavisi için yumuşak silikon yastıklı nazal maske. Çoğu cihazla uyumlu.",
+      "specs": [
+        "S/M/L",
+        "Silikon yastık",
+        "Sessiz egzoz",
+        "Başlık dahil"
+      ]
+    },
+    {
+      "id": "bc-041",
+      "name": "Steril Enjektör 5 ml (100'lü)",
+      "category": "laboratuvar",
+      "price": 155,
+      "oldPrice": null,
+      "rating": 4.8,
+      "stock": 320,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Luer lock, lateks içermeyen steril enjektör.",
+      "desc": "Klinik uygulamalar için 5 ml steril enjektör. Net graduasyon ve kaymaz piston.",
+      "specs": [
+        "5 ml",
+        "Luer lock",
+        "100 adet",
+        "Lateks yok"
+      ]
+    },
+    {
+      "id": "bc-042",
+      "name": "Cerrahi Maske 3 Kat (50'li)",
+      "category": "koruyucu",
+      "price": 75,
+      "oldPrice": 95,
+      "rating": 4.6,
+      "stock": 600,
+      "badge": "Stokta Bol",
+      "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Type IIR sıvı bariyerli cerrahi maske.",
+      "desc": "3 katlı SMS yapı, burun teli ve elastik kulak lastiği. Klinik standart Type IIR.",
+      "specs": [
+        "Type IIR",
+        "50 adet",
+        "Burun teli",
+        "Tek kullanımlık"
+      ]
+    },
+    {
+      "id": "bc-043",
+      "name": "Masaj Tabancası Deep Tissue",
+      "category": "rehabilitasyon",
+      "price": 2190,
+      "oldPrice": 2590,
+      "rating": 4.7,
+      "stock": 36,
+      "badge": "İndirim",
+      "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "6 başlıklı, 30 kademeli perküsyon masaj cihazı.",
+      "desc": "Kas gevşetme ve spor sonrası toparlanma için. Uzun pil ömrü ve sessiz motor.",
+      "specs": [
+        "30 kademe",
+        "6 başlık",
+        "USB-C şarj",
+        "~6 saat pil"
+      ]
+    },
+    {
+      "id": "bc-044",
+      "name": "Denge Tahtası Ahşap",
+      "category": "rehabilitasyon",
+      "price": 540,
+      "oldPrice": null,
+      "rating": 4.5,
+      "stock": 44,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1584744982491-665216d95f8b?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Proprioception eğitimi için ahşap denge tahtası.",
+      "desc": "Ayak bileği rehabilitasyonu ve core dengesi için. Kaymaz yüzey, 40 cm çap.",
+      "specs": [
+        "40 cm",
+        "Ahşap gövde",
+        "Kaymaz üst",
+        "120 kg"
+      ]
+    },
+    {
+      "id": "bc-045",
+      "name": "UV-C Sterilizasyon Kutusu",
+      "category": "hijyen",
+      "price": 890,
+      "oldPrice": 1090,
+      "rating": 4.4,
+      "stock": 29,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1581093588401-fbb62a02f48a?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1581093588401-fbb62a02f48a?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1583947215259-38e31be8741a?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Telefon ve küçük aletler için UV-C kutu.",
+      "desc": "360° UV-C ışınlama, güvenlik sensörlü kapak. 5–10 dk döngü seçenekleri.",
+      "specs": [
+        "UV-C LED",
+        "Güvenlik sensörü",
+        "USB besleme",
+        "5/10 dk"
+      ]
+    },
+    {
+      "id": "bc-046",
+      "name": "Klinik Terazi Dijital",
+      "category": "tani",
+      "price": 1750,
+      "oldPrice": null,
+      "rating": 4.6,
+      "stock": 22,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1598289431512-b97b0917affc?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "180 kg kapasiteli BMI hesaplamalı klinik terazi.",
+      "desc": "Büyük platform, boy ölçer bağlantısı opsiyonel. BMI ve hafıza fonksiyonu.",
+      "specs": [
+        "180 kg",
+        "BMI",
+        "Büyük LCD",
+        "Pil/adaptör"
+      ]
+    },
+    {
+      "id": "bc-047",
+      "name": "Yara Bandı Hipoalerjenik (100'lü)",
+      "category": "ilk-yardim",
+      "price": 68,
+      "oldPrice": null,
+      "rating": 4.5,
+      "stock": 410,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Nefes alan, hipoalerjenik yara bandı.",
+      "desc": "Hassas ciltler için dokuma olmayan yara bandı. Çeşitli boyutlarda karışık kutu.",
+      "specs": [
+        "100 adet",
+        "Hipoalerjenik",
+        "Karışık boyut",
+        "Su dirençli"
+      ]
+    },
+    {
+      "id": "bc-048",
+      "name": "Omuz Askısı Ortopedik",
+      "category": "ortopedi",
+      "price": 285,
+      "oldPrice": 340,
+      "rating": 4.3,
+      "stock": 57,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Ayarlanabilir pedli omuz askısı.",
+      "desc": "Kol immobilizasyonu için yumuşak pedli askı. Sağ/sol universal, nefes alan file.",
+      "specs": [
+        "Universal",
+        "Pedli boyun",
+        "File kumaş",
+        "S–XL"
+      ]
+    },
+    {
+      "id": "bc-049",
+      "name": "Otoskop LED Seti",
+      "category": "tani",
+      "price": 2450,
+      "oldPrice": 2790,
+      "rating": 4.8,
+      "stock": 24,
+      "badge": "Profesyonel",
+      "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Kulak muayenesi için LED otoskop seti.",
+      "desc": "Fiber optik aydınlatmalı otoskop, yedek spekulum ve sert çanta. CE belgeli klinik set.",
+      "specs": [
+        "LED ışık",
+        "Spekulum seti",
+        "Sert çanta",
+        "CE"
+      ]
+    },
+    {
+      "id": "bc-050",
+      "name": "Oftalmoskop Direkt",
+      "category": "tani",
+      "price": 2680,
+      "oldPrice": null,
+      "rating": 4.7,
+      "stock": 19,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Göz dibi muayenesi için direkt oftalmoskop.",
+      "desc": "5 diyafram açıklığı, kırmızı-free filtre ve şarjlı sap. Öğrenci ve klinik kullanım.",
+      "specs": [
+        "5 diyafram",
+        "Şarjlı sap",
+        "Filtreli",
+        "Taşıma kılıfı"
+      ]
+    },
+    {
+      "id": "bc-051",
+      "name": "Cerrahi Bone ve Galoş Seti",
+      "category": "koruyucu",
+      "price": 120,
+      "oldPrice": null,
+      "rating": 4.4,
+      "stock": 300,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1584744982491-665216d95f8b?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584744982491-665216d95f8b?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Tek kullanımlık bone + galoş 50'şer adet.",
+      "desc": "Ameliyathane ve steril alan girişleri için PP nonwoven set.",
+      "specs": [
+        "50 bone",
+        "50 galoş",
+        "PP",
+        "Tek kullanımlık"
+      ]
+    },
+    {
+      "id": "bc-052",
+      "name": "Göz Koruyucu Gözlük",
+      "category": "koruyucu",
+      "price": 185,
+      "oldPrice": 220,
+      "rating": 4.5,
+      "stock": 95,
+      "badge": "İndirim",
+      "image": "https://images.unsplash.com/photo-1583947215259-38e31be8741a?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1583947215259-38e31be8741a?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Anti-buğu yan kalkanlı koruyucu gözlük.",
+      "desc": "Sıvı sıçramalarına karşı yan korumalı. Maske ile uyumlu burun köprüsü.",
+      "specs": [
+        "Anti-buğu",
+        "Yan kalkan",
+        "Ayarlı kol",
+        "EN166"
+      ]
+    },
+    {
+      "id": "bc-053",
+      "name": "CPR Eğitim Maskesi",
+      "category": "ilk-yardim",
+      "price": 240,
+      "oldPrice": null,
+      "rating": 4.6,
+      "stock": 70,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1598289431512-b97b0917affc?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Tek yön valfli CPR yüz maskesi.",
+      "desc": "İlk yardım eğitimleri için şeffaf maske ve taşıma kutusu.",
+      "specs": [
+        "Tek yön valf",
+        "Şeffaf",
+        "Kutu dahil",
+        "Yetişkin"
+      ]
+    },
+    {
+      "id": "bc-054",
+      "name": "Turnike Acil",
+      "category": "ilk-yardim",
+      "price": 310,
+      "oldPrice": null,
+      "rating": 4.8,
+      "stock": 55,
+      "badge": "Öne Çıkan",
+      "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1631549916768-4119b4123a21?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Travma için rüzgâr tipi turnike.",
+      "desc": "Tek elle uygulanabilen metal kilitli turnike. Eğitim ve saha setleri için.",
+      "specs": [
+        "Tek el",
+        "Metal kilit",
+        "Eğitim uyumlu",
+        "Dayanıklı bant"
+      ]
+    },
+    {
+      "id": "bc-055",
+      "name": "Wrist Brace Carpal",
+      "category": "ortopedi",
+      "price": 295,
+      "oldPrice": 340,
+      "rating": 4.5,
+      "stock": 66,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Karpal tünel destekli bileklik.",
+      "desc": "Gece ve gündüz kullanım için metal balenli bilek desteyi.",
+      "specs": [
+        "Metal balen",
+        "Sağ/sol",
+        "S–L",
+        "Neopren"
+      ]
+    },
+    {
+      "id": "bc-056",
+      "name": "Topuk Dikeni Pedi (2'li)",
+      "category": "ortopedi",
+      "price": 110,
+      "oldPrice": null,
+      "rating": 4.3,
+      "stock": 180,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Silikon topuk dikeni rahatlatıcı ped.",
+      "desc": "Jel yapı, ayakkabı içinde görünmez kullanım.",
+      "specs": [
+        "2'li",
+        "Silikon jel",
+        "Yıkanabilir",
+        "Universal"
+      ]
+    },
+    {
+      "id": "bc-057",
+      "name": "Otomatik Pipet Ucu 200 µl",
+      "category": "laboratuvar",
+      "price": 190,
+      "oldPrice": null,
+      "rating": 4.7,
+      "stock": 150,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1666213522461-e1f29f5452bb?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Sarı rack, DNase/RNase free pipet ucu.",
+      "desc": "96'lı rack, steril opsiyonlu. Standart pipetlerle uyumlu.",
+      "specs": [
+        "96 rack",
+        "DNase free",
+        "200 µl",
+        "PP"
+      ]
+    },
+    {
+      "id": "bc-058",
+      "name": "Manyetik Karıştırıcı Mini",
+      "category": "laboratuvar",
+      "price": 1890,
+      "oldPrice": 2150,
+      "rating": 4.6,
+      "stock": 14,
+      "badge": "Profesyonel",
+      "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Isıtmasız mini manyetik karıştırıcı.",
+      "desc": "Laboratuvar solüsyonları için sessiz motor, 0–1500 rpm.",
+      "specs": [
+        "0–1500 rpm",
+        "2 L max",
+        "Sessiz",
+        "PTFE balık"
+      ]
+    },
+    {
+      "id": "bc-059",
+      "name": "Hasta Transfer Kayışı",
+      "category": "evde-bakim",
+      "price": 430,
+      "oldPrice": null,
+      "rating": 4.4,
+      "stock": 40,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1631549916768-4119b4123a21?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1631549916768-4119b4123a21?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1581595220892-5d66948586d6?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Yatağa bağımlı hasta transfer kayışı.",
+      "desc": "Çok tutamaklı, sağlam dokuma. Bakıcı yükünü azaltmaya yardımcı.",
+      "specs": [
+        "Çok tutamak",
+        "Sağlam dokuma",
+        "120 kg",
+        "Yıkanabilir"
+      ]
+    },
+    {
+      "id": "bc-060",
+      "name": "Ateş Düşürücü Jel Patch (4'lü)",
+      "category": "evde-bakim",
+      "price": 95,
+      "oldPrice": 120,
+      "rating": 4.5,
+      "stock": 210,
+      "badge": "İndirim",
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1584982757633-7139d89d1b8e?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Alın tipi serinletici ateş bandı.",
+      "desc": "Çocuk ve yetişkin için hidrojel patch. 6–8 saat etki süresi.",
+      "specs": [
+        "4 adet",
+        "Hidrojel",
+        "6–8 saat",
+        "Parfümsüz"
+      ]
+    },
+    {
+      "id": "bc-061",
+      "name": "Oda Dezenfektan Tablet",
+      "category": "hijyen",
+      "price": 145,
+      "oldPrice": null,
+      "rating": 4.2,
+      "stock": 88,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Buharlı oda/cihaz dezenfeksiyon tableti.",
+      "desc": "Küçük klinik odaları için kontrollü buhar tabletleri.",
+      "specs": [
+        "10 tablet",
+        "Buhar",
+        "Kullanım talimatı",
+        "Kapalı alan"
+      ]
+    },
+    {
+      "id": "bc-062",
+      "name": "El Losyonu Antiseptik 250 ml",
+      "category": "hijyen",
+      "price": 130,
+      "oldPrice": null,
+      "rating": 4.6,
+      "stock": 160,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1666213522461-e1f29f5452bb?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1666213522461-e1f29f5452bb?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1615486511484-92e060a2d374?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Cilt bariyer destekli antiseptik losyon.",
+      "desc": "Sık el yıkayan klinik personel için nemlendiricili formül.",
+      "specs": [
+        "250 ml",
+        "Nemlendirici",
+        "Pompa",
+        "Alkolsüz seçenek"
+      ]
+    },
+    {
+      "id": "bc-063",
+      "name": "Foam Roller 45 cm",
+      "category": "rehabilitasyon",
+      "price": 360,
+      "oldPrice": 420,
+      "rating": 4.7,
+      "stock": 74,
+      "badge": "Çok Satan",
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Kas gevşetme için orta sert foam roller.",
+      "desc": "Fizyoterapi ve spor sonrası toparlanma. Kaymaz yüzey.",
+      "specs": [
+        "45 cm",
+        "Orta sert",
+        "EVA",
+        "Hafif"
+      ]
+    },
+    {
+      "id": "bc-064",
+      "name": "Egzersiz Topu Fıstık",
+      "category": "rehabilitasyon",
+      "price": 410,
+      "oldPrice": null,
+      "rating": 4.5,
+      "stock": 39,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1581595220892-5d66948586d6?auto=format&fit=crop&w=800&h=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1581595220892-5d66948586d6?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1584634731339-252c90846c5d?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "short": "Denge ve pediatrik rehabilitasyon fıstık topu.",
+      "desc": "Stabil oturuş ve denge çalışmaları için fıstık formunda.",
+      "specs": [
+        "Fıstık form",
+        "Pompa",
+        "Anti-burst",
+        "100 kg"
+      ]
+    }
+  ]
+}

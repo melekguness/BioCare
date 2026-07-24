@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>İletişim | BioCare</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="iletisim">
+  <a class="skip-link" href="#icerik">İçeriğe atla</a>
+  <div id="site-header"></div>
+
+  <header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-4 text-center text-white">
+      <h1 class="display-5 fw-bolder">İletişim</h1>
+      <p class="lead text-white-50 mb-0">Teklif ve destek için yaz</p>
+    </div>
+  </header>
+
+  <main id="icerik" class="py-5">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-lg-5 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h2 class="h5 mb-3">Doğrudan ulaş</h2>
+              <p class="mb-2"><i class="bi bi-telephone me-2"></i><a href="tel:+902125550147">+90 212 555 0147</a></p>
+              <p class="mb-2"><i class="bi bi-envelope me-2"></i><a href="mailto:destek@biocare.com.tr">destek@biocare.com.tr</a></p>
+              <p class="mb-0"><i class="bi bi-geo-alt me-2"></i>İTÜ Teknopark, Maslak, İstanbul</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <form id="contact-form" class="card shadow-sm needs-validation" novalidate>
+            <div class="card-body">
+              <h2 class="h5 mb-3">Mesaj bırak</h2>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="ad">Ad Soyad</label>
+                  <input id="ad" class="form-control" required minlength="2" autocomplete="name">
+                  <div class="invalid-feedback">Adınızı yazın.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="eposta">E-posta</label>
+                  <input id="eposta" type="email" class="form-control" required autocomplete="email">
+                  <div class="invalid-feedback">Geçerli e-posta girin.</div>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="konu">Konu</label>
+                  <select id="konu" class="form-select" required>
+                    <option value="">Seçiniz</option>
+                    <option>Ürün sorusu</option>
+                    <option>Kurumsal teklif</option>
+                    <option>Teknik destek</option>
+                    <option>Diğer</option>
+                  </select>
+                  <div class="invalid-feedback">Konu seçin.</div>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="mesaj">Mesaj</label>
+                  <textarea id="mesaj" class="form-control" rows="5" required minlength="10"></textarea>
+                  <div class="invalid-feedback">En az 10 karakter yazın.</div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-bc">Gönder</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/products-data.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/static.js"></script>
+</body>
+</html>
