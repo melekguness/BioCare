@@ -2,57 +2,68 @@
 
 Biyomedikal / sağlık temalı e-ticaret **frontend** projesi (64 ürün).
 
-Bootstrap 5 + Vue 3 (CDN) ile çok sayfalı bir vitrin. Ürünler `data/products.json` dosyasından gelir; fiyat, görsel ve açıklamaları oradan düzenleyebilirsin.
+## Masaüstünde nasıl açılır?
 
-## Çalıştırma
+### En kolay (sunucu yok)
+1. Klasörü Masaüstüne koy / zip’i ayıkla  
+2. `index.html` dosyasına **çift tıkla**  
+3. Site tarayıcıda açılır  
 
-Tarayıcı `file://` ile JSON fetch’i engelleyebilir. Yerel sunucu aç:
+> Not: Ürünler `js/products-data.js` içinden gelir; çift tıklayınca da çalışır.
 
+### İstersen yerel sunucu (opsiyonel)
+Klasörün içinde terminal aç:
 ```bash
-# Python varsa
-python3 -m http.server 5500
-
-# veya VS Code / Cursor Live Server
+python -m http.server 5500
 ```
+Sonra: http://localhost:5500
 
-Sonra: [http://localhost:5500](http://localhost:5500)
+Cloud agent’taki `localhost:5500` **senin bilgisayarın değil**. Masaüstünde ayrı açman gerekir.
+
+## Veriler nereden geliyor?
+
+| Veri | Kaynak | Dosya |
+|------|--------|--------|
+| Ürünler, fiyat, stok, kategori | Yerel JSON / JS | `data/products.json` ve `js/products-data.js` |
+| Ürün görselleri | Unsplash (internet) | her ürünün `image` URL’i |
+| Sepet | Tarayıcı hafızası | `localStorage` (`js/cart.js`) |
+| Yazı tipleri | Google Fonts | Fraunces + Outfit |
+| Bootstrap / Vue | CDN | jsDelivr / unpkg |
+
+**Backend / API / veritabanı yok.** Hepsi frontend.
+
+Ürün değiştirmek için `data/products.json` düzenle, sonra:
+```bash
+python scripts/sync-products.py
+```
+(veya doğrudan `js/products-data.js` içindeki alanları değiştir)
+
+## Kullanılan teknolojiler
+
+- **HTML5** — sayfa yapısı  
+- **CSS3** — `css/main.css` (değişkenler, responsive, a11y)  
+- **Bootstrap 5.3** — grid, navbar, form  
+- **Vue 3 (CDN)** — ürün listesi, filtre, sepet ekranı  
+- **Vanilla JavaScript** — sepet, ortak header/footer, yardımcılar  
+- **JSON** — ürün kataloğu  
 
 ## Sayfalar
 
 | Dosya | İçerik |
 |-------|--------|
-| `index.html` | Ana sayfa, hero, kategoriler, vitrin |
+| `index.html` | Ana sayfa |
 | `urunler.html` | Arama / kategori / sıralama |
 | `urun.html?id=bc-001` | Ürün detay |
-| `sepet.html` | Sepet (localStorage) |
+| `sepet.html` | Sepet |
 | `hakkimizda.html` | Hakkımızda |
 | `iletisim.html` | İletişim formu |
-
-## Ürün ekleme / değiştirme
-
-1. `data/products.json` aç.
-2. `products` dizisine yeni obje ekle veya mevcut alanı güncelle.
-3. `image` alanına Unsplash / kendi görsel URL’ni yapıştır.
-4. Sayfayı yenile.
-
-Örnek alanlar: `id`, `name`, `category`, `price`, `oldPrice`, `rating`, `stock`, `badge`, `image`, `short`, `desc`, `specs`.
-
-Kategoriler aynı dosyadaki `categories` listesinde.
-
-## Teknolojiler (ders uyumu)
-
-- **Bootstrap 5.3** — grid, navbar, form, breadcrumb
-- **Vue 3** — listeleme, filtre, sepet state
-- **Vanilla JS modülleri** — `js/cart.js`, `js/utils.js`
-- **CSS değişkenleri** — `css/main.css` içindeki `:root`
-- **a11y** — skip link, `aria-*`, odak halkası, `prefers-reduced-motion`
-- **Mobil** — responsive grid ve toolbar
 
 ## Klasör yapısı
 
 ```
 css/main.css
 data/products.json
+js/products-data.js   ← ürün verisi (çift tık için)
 js/cart.js
 js/utils.js
 js/home.js
@@ -60,9 +71,10 @@ js/products.js
 js/detail.js
 js/cart-page.js
 js/static.js
+scripts/sync-products.py
 *.html
 ```
 
 ## Not
 
-Fiyatlar ve stoklar örnek veridir. Ödeme entegrasyonu yoktur; sepet demo amaçlıdır.
+Fiyatlar ve stoklar örnek. Ödeme yok; sepet demo.
