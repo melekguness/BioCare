@@ -12,58 +12,52 @@
   <a class="skip-link" href="#icerik">İçeriğe atla</a>
   <div id="site-header"></div>
 
-  <header class="bg-dark py-5">
-    <div class="container px-4 px-lg-5 my-4 text-center text-white">
-      <h1 class="display-5 fw-bolder">Sepet</h1>
-      <p class="lead text-white-50 mb-0">Seçtiğin ürünleri gözden geçir</p>
+  <header class="bc-page-banner">
+    <div class="container">
+      <h1>Sepet</h1>
+      <p class="mb-0 text-white-50">Seçimini tamamla</p>
     </div>
   </header>
 
-  <main id="icerik" class="py-5">
-    <div id="app" class="container px-4 px-lg-5">
-      <div v-if="loading" class="text-muted">Yükleniyor…</div>
+  <main id="icerik" class="bc-section">
+    <div id="app" class="container">
+      <div v-if="loading" class="text-secondary">Yükleniyor…</div>
       <div v-else-if="error" class="alert alert-danger">{{ error }}</div>
       <template v-else>
-        <div v-if="!rows.length" class="card shadow-sm">
-          <div class="card-body text-center py-5">
-            <p class="mb-3">Sepetin boş.</p>
-            <a class="btn btn-outline-dark" href="urunler.html">Alışverişe başla</a>
-          </div>
+        <div v-if="!rows.length" class="bc-panel text-center py-5">
+          <p class="mb-3 text-secondary">Sepetin boş.</p>
+          <a class="btn btn-bc" href="urunler.html">Koleksiyona git</a>
         </div>
 
-        <div v-else class="row gx-4">
+        <div v-else class="row g-4">
           <div class="col-lg-8">
-            <div class="card shadow-sm mb-3" v-for="row in rows" :key="row.id">
-              <div class="card-body d-flex flex-wrap gap-3 align-items-center">
-                <img :src="row.product.image" :alt="row.product.name" width="80" height="80" class="rounded object-fit-cover">
-                <div class="flex-grow-1">
-                  <a class="fw-semibold text-decoration-none text-dark" :href="'urun.html?id=' + row.id">{{ row.product.name }}</a>
-                  <div class="small text-muted">{{ money(row.product.price) }} / adet</div>
-                  <div class="d-flex align-items-center gap-2 mt-2">
-                    <div class="bc-qty">
-                      <button type="button" @click="setQty(row.id, row.qty - 1)" aria-label="Azalt">−</button>
-                      <span>{{ row.qty }}</span>
-                      <button type="button" @click="setQty(row.id, row.qty + 1)" aria-label="Artır">+</button>
-                    </div>
-                    <button type="button" class="btn btn-link btn-sm text-danger" @click="remove(row.id)">Kaldır</button>
+            <div class="bc-cart-row" v-for="row in rows" :key="row.id">
+              <img :src="row.product.image" :alt="row.product.name" width="80" height="80">
+              <div>
+                <a class="fw-semibold text-decoration-none text-dark" :href="'urun.html?id=' + row.id">{{ row.product.name }}</a>
+                <div class="small text-secondary">{{ money(row.product.price) }} / adet</div>
+                <div class="d-flex align-items-center gap-2 mt-2">
+                  <div class="bc-qty">
+                    <button type="button" @click="setQty(row.id, row.qty - 1)" aria-label="Azalt">−</button>
+                    <span>{{ row.qty }}</span>
+                    <button type="button" @click="setQty(row.id, row.qty + 1)" aria-label="Artır">+</button>
                   </div>
+                  <button type="button" class="btn btn-link btn-sm text-danger" @click="remove(row.id)">Kaldır</button>
                 </div>
-                <div class="fw-bold">{{ money(row.line) }}</div>
               </div>
+              <div class="bc-cart-row__price fw-bold">{{ money(row.line) }}</div>
             </div>
-            <button type="button" class="btn btn-outline-secondary" @click="clear">Sepeti temizle</button>
+            <button type="button" class="btn btn-bc-line mt-3" @click="clear">Sepeti temizle</button>
           </div>
           <div class="col-lg-4">
-            <div class="card shadow-sm">
-              <div class="card-body">
-                <h2 class="h5">Sipariş özeti</h2>
-                <div class="d-flex justify-content-between mb-2"><span>Adet</span><strong>{{ count }}</strong></div>
-                <div class="d-flex justify-content-between mb-3"><span>Toplam</span><strong>{{ money(total) }}</strong></div>
-                <p class="small text-muted">Demo sepet — ödeme entegrasyonu yok.</p>
-                <button type="button" class="btn btn-bc w-100" @click="checkout">Siparişi tamamla</button>
-                <a class="btn btn-outline-dark w-100 mt-2" href="urunler.html">Alışverişe devam</a>
-              </div>
-            </div>
+            <aside class="bc-panel" aria-labelledby="sum-title">
+              <h2 id="sum-title" class="h5 mb-3">Özet</h2>
+              <div class="d-flex justify-content-between mb-2"><span>Adet</span><strong>{{ count }}</strong></div>
+              <div class="d-flex justify-content-between mb-3"><span>Toplam</span><strong>{{ money(total) }}</strong></div>
+              <p class="small text-secondary">Demo sepet — ödeme yok.</p>
+              <button type="button" class="btn btn-bc w-100" @click="checkout">Siparişi tamamla</button>
+              <a class="btn btn-bc-line w-100 mt-2" href="urunler.html">Alışverişe devam</a>
+            </aside>
           </div>
         </div>
       </template>

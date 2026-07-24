@@ -1,39 +1,20 @@
 # BioCare
 
-Biyomedikal e-ticaret **frontend** projesi.
+Premium klinik / biyomedikal e-ticaret **frontend** vitrini.
 
-## Bootstrap şablonu
+## Tasarım
+Sakin klinik atmosfer, full-bleed hero, Instrument Serif + Manrope tipografi, image-forward ürün grid’i.
 
-Temel şablon:
+## Altyapı
+- **Bootstrap 5.3** (Start Bootstrap Shop Homepage iskeleti, MIT)
+- **Vue 3** — katalog, filtre, sepet
+- **Bootstrap Icons**
 
-**[Start Bootstrap — Shop Homepage](https://startbootstrap.com/template/shop-homepage)** (Bootstrap 5, MIT)
+## Masaüstünde aç
+Klasördeki `index.html` → çift tık  
+veya `baslat.bat` / VS Code Live Server
 
-Ürün detay sayfası aynı ailenin **Shop Item** düzenine göre uyarlandı.
+GitHub’a her seferinde bağlanmana gerek yok; bir kez indirdikten sonra yerel klasörde çalış.
 
-Üzerine BioCare (medikal) içerik, Vue 3 ile dinamik katalog ve özel renkler eklendi (`css/styles.css`).
-
-## Açılış
-
-- `index.html` çift tık **veya**
-- `baslat.bat` **veya**
-- VS Code → Live Server (`index.html` sağ tık → Open with Live Server)
-
-## Teknolojiler
-
-| Katman | Ne |
-|--------|----|
-| Şablon | Start Bootstrap Shop Homepage (BS5) |
-| UI | Bootstrap 5.3 + Bootstrap Icons |
-| JS çerçeve | Vue 3 (CDN) |
-| Veri | `data/products.json` / `js/products-data.js` |
-| Sepet | `localStorage` |
-
-Backend yok.
-
-## Sayfalar
-
-`index.html` · `urunler.html` · `urun.html` · `sepet.html` · `hakkimizda.html` · `iletisim.html`
-
-## Ürün değiştirme
-
-`data/products.json` düzenle → `python scripts/sync-products.py`
+## Veri
+`js/products-data.js` + `data/products.json` — backend yok.

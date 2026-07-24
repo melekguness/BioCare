@@ -1,4 +1,4 @@
-/* Ortak yardımcılar — Start Bootstrap Shop üzerine BioCare */
+/* BioCare helpers */
 
 function formatPrice(value) {
   return new Intl.NumberFormat("tr-TR", {
@@ -50,10 +50,6 @@ function updateCartBadges() {
   });
 }
 
-/**
- * Start Bootstrap Shop Homepage navbar + footer iskeleti
- * https://startbootstrap.com/template/shop-homepage
- */
 function renderShell(active) {
   const header = document.getElementById("site-header");
   const footer = document.getElementById("site-footer");
@@ -61,24 +57,23 @@ function renderShell(active) {
 
   const links = [
     { href: "index.html", id: "home", label: "Ana Sayfa" },
-    { href: "urunler.html", id: "urunler", label: "Ürünler" },
+    { href: "urunler.html", id: "urunler", label: "Koleksiyon" },
     { href: "hakkimizda.html", id: "hakkimizda", label: "Hakkımızda" },
     { href: "iletisim.html", id: "iletisim", label: "İletişim" },
   ];
 
   header.innerHTML = `
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Ana menü">
-      <div class="container px-4 px-lg-5">
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
-          <span class="bc-brand-mark" aria-hidden="true">B</span>
-          BioCare
+    <nav class="navbar navbar-expand-lg bc-nav" aria-label="Ana menü">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          BioCare <span>Klinik</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Menüyü aç/kapat">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-1">
             ${links
               .map(
                 (l) => `
@@ -88,45 +83,48 @@ function renderShell(active) {
               </li>`
               )
               .join("")}
+            <li class="nav-item ms-lg-2">
+              <a class="bc-cart" href="sepet.html" aria-label="Sepete git">
+                <i class="bi-bag" aria-hidden="true"></i>
+                Sepet
+                <span class="badge rounded-pill" data-cart-count>0</span>
+              </a>
+            </li>
           </ul>
-          <a class="btn btn-outline-dark" href="sepet.html" aria-label="Sepete git">
-            <i class="bi-cart-fill me-1" aria-hidden="true"></i>
-            Sepet
-            <span class="badge bg-dark text-white ms-1 rounded-pill" data-cart-count>0</span>
-          </a>
         </div>
       </div>
     </nav>
   `;
 
   footer.innerHTML = `
-    <footer class="py-5 bg-dark">
-      <div class="container px-4 px-lg-5">
-        <div class="row gy-3 text-white-50">
+    <footer class="bc-footer">
+      <div class="container">
+        <div class="row g-4">
           <div class="col-md-5">
-            <div class="text-white fw-bold mb-2">BioCare</div>
-            <p class="small mb-0">Start Bootstrap Shop Homepage şablonu üzerine uyarlanmış medikal e-ticaret vitrini.</p>
+            <div class="bc-footer__brand">BioCare</div>
+            <p class="mb-0">Klinik standartlarda seçilmiş medikal ve sağlık ürünleri. Sessiz lüks, net işlev.</p>
           </div>
           <div class="col-6 col-md-3">
             <div class="text-white fw-semibold mb-2">Keşfet</div>
-            <ul class="list-unstyled small mb-0">
-              <li><a href="urunler.html">Ürünler</a></li>
+            <ul class="list-unstyled small mb-0 d-grid gap-2">
+              <li><a href="urunler.html">Koleksiyon</a></li>
               <li><a href="urunler.html?kat=tani">Tanı &amp; ölçüm</a></li>
               <li><a href="sepet.html">Sepet</a></li>
             </ul>
           </div>
           <div class="col-6 col-md-4">
             <div class="text-white fw-semibold mb-2">İletişim</div>
-            <ul class="list-unstyled small mb-0">
+            <ul class="list-unstyled small mb-0 d-grid gap-2">
               <li><a href="tel:+902125550147">+90 212 555 0147</a></li>
               <li><a href="mailto:destek@biocare.com.tr">destek@biocare.com.tr</a></li>
               <li><a href="iletisim.html">Form</a></li>
             </ul>
           </div>
         </div>
-        <p class="m-0 text-center text-white-50 small mt-4 pt-3 border-top border-secondary">
-          © ${new Date().getFullYear()} BioCare · Şablon: Start Bootstrap Shop Homepage (MIT)
-        </p>
+        <div class="bc-footer__bottom d-flex flex-wrap justify-content-between gap-2">
+          <span>© ${new Date().getFullYear()} BioCare</span>
+          <span>Bootstrap 5 · Start Bootstrap Shop Homepage üzerine</span>
+        </div>
       </div>
     </footer>
   `;

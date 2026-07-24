@@ -3,13 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="BioCare — Start Bootstrap Shop Homepage üzerine medikal e-ticaret vitrini.">
-  <title>BioCare | Medikal Market</title>
-  <!--
-    Şablon: Start Bootstrap - Shop Homepage
-    https://startbootstrap.com/template/shop-homepage
-    Lisans: MIT
-  -->
+  <meta name="description" content="BioCare — premium klinik medikal ürün vitrini.">
+  <title>BioCare | Klinik Medikal</title>
+  <!-- Altyapı: Bootstrap 5 + Start Bootstrap Shop Homepage (MIT) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -19,73 +15,76 @@
   <div id="site-header"></div>
 
   <main id="icerik">
-    <!-- Header (Shop Homepage şablon yapısı) -->
-    <header class="bc-hero py-5">
-      <div class="container px-4 px-lg-5 my-5">
-        <div class="text-center text-white">
-          <h1 class="display-4 fw-bolder">BioCare</h1>
-          <p class="lead fw-normal text-white-50 mb-4">Klinik kalitesinde medikal ürünler — tanıdan bakıma</p>
-          <a class="btn btn-light btn-lg px-4 me-2" href="urunler.html">Ürünlere göz at</a>
-          <a class="btn btn-outline-light btn-lg px-4" href="hakkimizda.html">Hakkımızda</a>
+    <section class="bc-hero" aria-labelledby="hero-brand">
+      <div class="bc-hero__media" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=2000&q=80"
+          alt=""
+          width="2000"
+          height="1200">
+        <div class="bc-hero__veil"></div>
+      </div>
+      <div class="container">
+        <div class="bc-hero__inner">
+          <h1 id="hero-brand" class="bc-hero__brand">BioCare</h1>
+          <p class="bc-hero__lead">Klinik netlikte medikal seçki — ölçümden bakıma, tek vitrinde.</p>
+          <div class="bc-hero__cta">
+            <a class="btn btn-bc-light" href="urunler.html">Koleksiyonu aç</a>
+            <a class="btn btn-bc-ghost" href="hakkimizda.html">Markayı tanı</a>
+          </div>
         </div>
       </div>
-    </header>
+    </section>
 
     <div id="app">
-      <!-- Section: kategoriler -->
-      <section class="py-5 bg-white border-bottom">
-        <div class="container px-4 px-lg-5">
-          <h2 class="fw-bolder mb-4">Kategoriler</h2>
-          <div v-if="loading" class="text-muted">Yükleniyor…</div>
+      <section class="bc-section" aria-labelledby="kat-title">
+        <div class="container">
+          <div class="mb-4">
+            <span class="bc-kicker">Alanlar</span>
+            <h2 id="kat-title" class="bc-title">Neye ihtiyacın var?</h2>
+            <p class="bc-lead">Koruyucu ekipmandan laboratuvara, evde bakımdan rehabilitasyona.</p>
+          </div>
+          <div v-if="loading" class="text-secondary">Yükleniyor…</div>
           <div v-else-if="error" class="alert alert-danger">{{ error }}</div>
-          <div v-else class="row g-3">
-            <div class="col-6 col-md-3" v-for="c in categoryCards" :key="c.id">
-              <a class="card h-100 text-decoration-none text-dark shadow-sm" :href="'urunler.html?kat=' + c.id">
-                <div class="card-body">
-                  <div class="text-secondary small text-uppercase mb-1">{{ c.count }} ürün</div>
-                  <div class="fw-semibold">{{ c.name }}</div>
-                </div>
-              </a>
-            </div>
+          <div v-else class="bc-cats">
+            <a class="bc-cat" v-for="c in categoryCards" :key="c.id" :href="'urunler.html?kat=' + c.id">
+              <span class="bc-cat__count">{{ c.count }} ürün</span>
+              <span class="bc-cat__name">{{ c.name }}</span>
+            </a>
           </div>
         </div>
       </section>
 
-      <!-- Section: ürün kartları (Shop Homepage card grid) -->
-      <section class="py-5">
-        <div class="container px-4 px-lg-5 mt-2">
-          <div class="d-flex justify-content-between align-items-end mb-4">
-            <h2 class="fw-bolder mb-0">Öne çıkanlar</h2>
-            <a href="urunler.html" class="link-secondary">Tümünü gör</a>
+      <section class="bc-section pt-0" aria-labelledby="feat-title">
+        <div class="container">
+          <div class="d-flex flex-wrap justify-content-between align-items-end gap-3 mb-4">
+            <div>
+              <span class="bc-kicker">Seçki</span>
+              <h2 id="feat-title" class="bc-title">Öne çıkanlar</h2>
+              <p class="bc-lead">Dikkatle seçilmiş, klinik kullanıma uygun ürünler.</p>
+            </div>
+            <a class="btn btn-bc-line" href="urunler.html">Tüm koleksiyon</a>
           </div>
 
-          <div v-if="!loading && !error" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-            <div class="col mb-5" v-for="p in featured" :key="p.id">
-              <div class="card h-100 shadow-sm">
-                <div class="badge bg-dark text-white position-absolute" style="top:0.5rem;right:0.5rem" v-if="p.badge"
-                  :class="{ 'bc-sale': /indirim/i.test(p.badge) }">{{ p.badge }}</div>
-                <a :href="'urun.html?id=' + p.id">
-                  <img class="card-img-top" :src="p.image" :alt="p.name">
-                </a>
-                <div class="card-body p-4">
-                  <div class="text-center">
-                    <div class="small text-muted mb-1">{{ catName(p.category) }}</div>
-                    <h5 class="fw-bolder">
-                      <a class="text-decoration-none text-dark" :href="'urun.html?id=' + p.id">{{ p.name }}</a>
-                    </h5>
-                    <div class="small mb-2"><i class="bi bi-star-fill text-warning"></i> {{ p.rating }}</div>
-                    <span class="text-muted text-decoration-line-through me-1" v-if="p.oldPrice">{{ money(p.oldPrice) }}</span>
-                    {{ money(p.price) }}
-                  </div>
+          <div v-if="!loading && !error" class="bc-grid">
+            <article class="bc-product" v-for="p in featured" :key="p.id">
+              <a class="bc-product__media" :href="'urun.html?id=' + p.id" :aria-label="p.name">
+                <span class="bc-product__badge" v-if="p.badge">{{ p.badge }}</span>
+                <img :src="p.image" :alt="p.name" loading="lazy" width="800" height="1000">
+              </a>
+              <div class="bc-product__cat">{{ catName(p.category) }}</div>
+              <h3 class="bc-product__name"><a :href="'urun.html?id=' + p.id">{{ p.name }}</a></h3>
+              <div class="bc-product__meta">
+                <div class="bc-price">
+                  <s v-if="p.oldPrice">{{ money(p.oldPrice) }}</s>{{ money(p.price) }}
                 </div>
-                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                  <div class="text-center d-grid gap-2">
-                    <button class="btn btn-outline-dark mt-auto" type="button" @click="add(p.id)">Sepete ekle</button>
-                    <a class="btn btn-bc btn-sm" :href="'urun.html?id=' + p.id">İncele</a>
-                  </div>
-                </div>
+                <div class="bc-rating"><i class="bi bi-star-fill" aria-hidden="true"></i> {{ p.rating }}</div>
               </div>
-            </div>
+              <div class="bc-product__actions">
+                <button type="button" class="btn btn-bc btn-sm" @click="add(p.id)">Sepete ekle</button>
+                <a class="btn btn-bc-line btn-sm" :href="'urun.html?id=' + p.id">İncele</a>
+              </div>
+            </article>
           </div>
         </div>
       </section>
