@@ -33,6 +33,11 @@ function showToast(message) {
 }
 
 async function loadCatalog() {
+  // Önce gömülü veri (masaüstünde index.html çift tıklanınca da çalışır)
+  if (window.BIOCARE_DATA) {
+    return window.BIOCARE_DATA;
+  }
+  // Yedek: yerel sunucu / canlı ortamda JSON
   const res = await fetch("data/products.json");
   if (!res.ok) throw new Error("Ürün verisi yüklenemedi");
   return res.json();
