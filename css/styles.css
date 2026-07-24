@@ -1,0 +1,187 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template/shop-homepage)
+ * Copyright 2013-2023 Start Bootstrap LLC
+ * Licensed under MIT
+ *
+ * BioCare özelleştirmeleri bu dosyada şablonun üzerine eklendi.
+ */
+
+:root {
+  --bc-teal: #0b6e6a;
+  --bc-teal-dark: #085450;
+  --bc-ink: #1a2b32;
+  --bc-muted: #5c6b73;
+  --bc-sand: #f4f7f6;
+  --bc-coral: #c45c48;
+}
+
+body {
+  color: var(--bc-ink);
+  background: var(--bc-sand);
+}
+
+a {
+  color: var(--bc-teal-dark);
+}
+
+a:hover {
+  color: var(--bc-coral);
+}
+
+:focus-visible {
+  outline: 3px solid var(--bc-teal);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -100px;
+  z-index: 2000;
+  background: #111;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.35rem;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Start Bootstrap shop: ürün kartı görseli */
+.card .card-img-top {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.bc-brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 0.4rem;
+  background: var(--bc-teal);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-right: 0.4rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.bc-hero {
+  background:
+    linear-gradient(120deg, rgba(8, 40, 44, 0.88), rgba(11, 110, 106, 0.72)),
+    url("https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1600&q=80")
+      center / cover no-repeat;
+}
+
+.bc-hero .display-4 {
+  font-weight: 700;
+}
+
+.badge.bc-sale {
+  background: var(--bc-coral) !important;
+}
+
+.btn-bc {
+  --bs-btn-bg: var(--bc-teal);
+  --bs-btn-border-color: var(--bc-teal);
+  --bs-btn-hover-bg: var(--bc-teal-dark);
+  --bs-btn-hover-border-color: var(--bc-teal-dark);
+  --bs-btn-color: #fff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-bg: var(--bc-teal-dark);
+  --bs-btn-active-border-color: var(--bc-teal-dark);
+  --bs-btn-active-color: #fff;
+}
+
+.btn-outline-bc {
+  --bs-btn-color: var(--bc-teal-dark);
+  --bs-btn-border-color: var(--bc-teal);
+  --bs-btn-hover-bg: var(--bc-teal);
+  --bs-btn-hover-border-color: var(--bc-teal);
+  --bs-btn-hover-color: #fff;
+}
+
+.bc-toolbar .form-control,
+.bc-toolbar .form-select {
+  border-radius: 0.5rem;
+}
+
+.bc-chip {
+  border: 1px solid #dee2e6;
+  background: #fff;
+  border-radius: 999px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.9rem;
+}
+
+.bc-chip.is-active,
+.bc-chip:hover {
+  background: #d8efe9;
+  border-color: var(--bc-teal);
+  color: var(--bc-teal-dark);
+}
+
+.bc-qty {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #dee2e6;
+  border-radius: 999px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.bc-qty button {
+  border: 0;
+  background: transparent;
+  width: 2rem;
+  height: 2rem;
+  font-weight: 700;
+}
+
+.bc-qty span {
+  min-width: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.bc-toast-wrap {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1080;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.bc-toast {
+  background: #212529;
+  color: #fff;
+  padding: 0.85rem 1.1rem;
+  border-radius: 0.5rem;
+  max-width: 20rem;
+}
+
+footer.bg-dark a {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+footer.bg-dark a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

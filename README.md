@@ -1,80 +1,39 @@
 # BioCare
 
-Biyomedikal / sağlık temalı e-ticaret **frontend** projesi (64 ürün).
+Biyomedikal e-ticaret **frontend** projesi.
 
-## Masaüstünde nasıl açılır?
+## Bootstrap şablonu
 
-### En kolay (sunucu yok)
-1. Klasörü Masaüstüne koy / zip’i ayıkla  
-2. `index.html` dosyasına **çift tıkla**  
-3. Site tarayıcıda açılır  
+Temel şablon:
 
-> Not: Ürünler `js/products-data.js` içinden gelir; çift tıklayınca da çalışır.
+**[Start Bootstrap — Shop Homepage](https://startbootstrap.com/template/shop-homepage)** (Bootstrap 5, MIT)
 
-### İstersen yerel sunucu (opsiyonel)
-Klasörün içinde terminal aç:
-```bash
-python -m http.server 5500
-```
-Sonra: http://localhost:5500
+Ürün detay sayfası aynı ailenin **Shop Item** düzenine göre uyarlandı.
 
-Cloud agent’taki `localhost:5500` **senin bilgisayarın değil**. Masaüstünde ayrı açman gerekir.
+Üzerine BioCare (medikal) içerik, Vue 3 ile dinamik katalog ve özel renkler eklendi (`css/styles.css`).
 
-## Veriler nereden geliyor?
+## Açılış
 
-| Veri | Kaynak | Dosya |
-|------|--------|--------|
-| Ürünler, fiyat, stok, kategori | Yerel JSON / JS | `data/products.json` ve `js/products-data.js` |
-| Ürün görselleri | Unsplash (internet) | her ürünün `image` URL’i |
-| Sepet | Tarayıcı hafızası | `localStorage` (`js/cart.js`) |
-| Yazı tipleri | Google Fonts | Fraunces + Outfit |
-| Bootstrap / Vue | CDN | jsDelivr / unpkg |
+- `index.html` çift tık **veya**
+- `baslat.bat` **veya**
+- VS Code → Live Server (`index.html` sağ tık → Open with Live Server)
 
-**Backend / API / veritabanı yok.** Hepsi frontend.
+## Teknolojiler
 
-Ürün değiştirmek için `data/products.json` düzenle, sonra:
-```bash
-python scripts/sync-products.py
-```
-(veya doğrudan `js/products-data.js` içindeki alanları değiştir)
+| Katman | Ne |
+|--------|----|
+| Şablon | Start Bootstrap Shop Homepage (BS5) |
+| UI | Bootstrap 5.3 + Bootstrap Icons |
+| JS çerçeve | Vue 3 (CDN) |
+| Veri | `data/products.json` / `js/products-data.js` |
+| Sepet | `localStorage` |
 
-## Kullanılan teknolojiler
-
-- **HTML5** — sayfa yapısı  
-- **CSS3** — `css/main.css` (değişkenler, responsive, a11y)  
-- **Bootstrap 5.3** — grid, navbar, form  
-- **Vue 3 (CDN)** — ürün listesi, filtre, sepet ekranı  
-- **Vanilla JavaScript** — sepet, ortak header/footer, yardımcılar  
-- **JSON** — ürün kataloğu  
+Backend yok.
 
 ## Sayfalar
 
-| Dosya | İçerik |
-|-------|--------|
-| `index.html` | Ana sayfa |
-| `urunler.html` | Arama / kategori / sıralama |
-| `urun.html?id=bc-001` | Ürün detay |
-| `sepet.html` | Sepet |
-| `hakkimizda.html` | Hakkımızda |
-| `iletisim.html` | İletişim formu |
+`index.html` · `urunler.html` · `urun.html` · `sepet.html` · `hakkimizda.html` · `iletisim.html`
 
-## Klasör yapısı
+## Ürün değiştirme
 
-```
-css/main.css
-data/products.json
-js/products-data.js   ← ürün verisi (çift tık için)
-js/cart.js
-js/utils.js
-js/home.js
-js/products.js
-js/detail.js
-js/cart-page.js
-js/static.js
-scripts/sync-products.py
-*.html
-```
-
-## Not
-
-Fiyatlar ve stoklar örnek. Ödeme yok; sepet demo.
+`data/products.json` düzenle → `python scripts/sync-products.py`
